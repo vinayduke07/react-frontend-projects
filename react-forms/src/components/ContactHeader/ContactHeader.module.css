@@ -1,0 +1,17 @@
+.contactHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contactHeading h1 {
+  margin-top: 4%;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.contactHeading p {
+  font-weight: 600;
+  color: #5a5959;
+  max-width: 1200px;
+}

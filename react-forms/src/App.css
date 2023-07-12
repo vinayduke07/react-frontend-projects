@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Playfair:wght@700&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,400;0,900;1,100&family=Ubuntu:ital,wght@0,400;1,700&family=Work+Sans:wght@600&display=swap");
+
+* {
+  margin: 0px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+.navbar {
+  height: 72px;
+  background-color: #8b3dff;
+}
+
+/* set the logo and rotate it */
+
+.logo {
+  cursor: pointer;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  font-weight: 500;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  color: #ffffff;
+}
