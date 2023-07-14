@@ -29,7 +29,7 @@ const GamePlay = () => {
     if (selectedNumber === randomNumber) {
       setScore((prev) => prev + randomNumber);
     } else {
-      setScore((prev) => prev - 2);
+      setScore((prev) => prev - randomNumber);
     }
 
     setSelectedNumber(undefined);
